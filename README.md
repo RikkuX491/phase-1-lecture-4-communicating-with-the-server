@@ -1,17 +1,19 @@
-# Phase 1, Lecture 1: Functions & Scope
+# Phase 1, Lecture 2: DOM Manipulation
 
 ## Lecture Topics
 
-- Declaring vs. Invoking JS functions
-- Block Scope
-- Function Scope
-- Global Scope
-- Callback Functions
-- Higher Order Functions
+- .querySelector()
+- .querySelectorAll()
+- .createElement()
+- .getElementById()
+- .getElementsByClassName()
+- .appendChild()
+- .remove()
+- .innerHTML vs .innerText vs .textContent
 
 ## Introduction
 
-Today we'll be building an app for a new restaurant, Flatburger, that displays a menu of food served at the restaurant. We will be using the concepts learned in this lecture to build out this app.
+Today we'll be continuing to build our app for the Flatburger restaurant that displays a menu of food served at the restaurant. We will be adding a feature that displays information for one of the menu items including the name, image, and description for the menu item. We will be using the concepts learned in this lecture to build out this app.
 
 ## Setup
 
