@@ -1,4 +1,4 @@
-const burgers = [
+const foods = [
     {
         name: "Flatburger",
         image: "./assets/food/flatburger.jpeg",
@@ -23,10 +23,7 @@ const burgers = [
         name: "Ramen Burger",
         image: "./assets/food/ramen-burger.jpeg",
         description: "If you love ramen and burgers, what are you waiting for? Order our exclusive ramen burger now!"
-    }
-]
-
-const otherFoods = [
+    },
     {
         name: "French Fries",
         image: "./assets/food/french-fries.jpeg",
@@ -53,3 +50,20 @@ const otherFoods = [
         description: "The Flatburger exclusive Onion Rings! Get them while supplies last!"
     }
 ]
+
+const restaurantMenu = document.getElementById('restaurant-menu')
+
+for(let index = 0; index < foods.length; index++){
+    const image = document.createElement('img')
+    image.src = foods[index].image
+    restaurantMenu.appendChild(image)
+}
+
+const foodDetailImage = document.querySelector('.detail-image')
+foodDetailImage.src = foods[0].image
+
+const foodName = document.querySelector('.name') 
+foodName.textContent = foods[0].name
+
+const foodDescription = document.querySelector(`#description-display`)
+foodDescription.textContent = foods[0].description
