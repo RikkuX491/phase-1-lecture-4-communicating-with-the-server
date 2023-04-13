@@ -1,15 +1,16 @@
-# Phase 1, Lecture 3: DOM Events
+# Phase 1, Lecture 4: Communicating With The Server
 
 ## Lecture Topics
 
-- HTML forms
-- .preventDefault()
-- .addEventListener()
-- Handling click and submit events
+- HTTP Verbs
+- Client Side vs. Server Side
+- fetch()
+- .then()
+- Asynchronous Functions
 
 ## Introduction
 
-Today we'll be continuing to build our app for the Flatburger restaurant that displays a menu of food served at the restaurant. We will be adding a feature that displays information for one of the menu items including the name, image, and description for the menu item within a food detail section of the page when the image for the menu item is clicked within the menu. We will also be adding a feature that allows a user to add a new food to the menu using an HTML form. We will be using the concepts learned in this lecture to build out this app.
+Today we'll be continuing to build our app for the Flatburger restaurant that displays a menu of food served at the restaurant. We will using fetch() to make a GET request to a backend server containing data for our food. After obtaining the food data from the backend server, we will be adding the food images to the menu, using that food data. We will also be displaying the information for one of the menu items including the name, image, and description for the menu item within a food detail section of the page when the image for the menu item is clicked within the menu. We will be using the concepts learned in this lecture to build out this app.
 
 ## Setup
 
