@@ -60,5 +60,15 @@
       "image": "./assets/food/onion-rings.jpeg",
       "description": "The Flatburger exclusive Onion Rings! Get them while supplies last!"
     }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "name": "Orange Juice"
+    },
+    {
+      "id": 2,
+      "name": "Lemonade"
+    }
   ]
 }
